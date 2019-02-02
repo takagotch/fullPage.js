@@ -14,6 +14,12 @@ new fullpage('#fullpage', {
     }
   }
 });
+
+
+new fullpage('', {
+  anchors: [],
+  afterSlideLoad: function(){}
+});
 ```
 
 ```
